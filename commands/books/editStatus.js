@@ -51,7 +51,7 @@ const rowStatus = new ActionRowBuilder()
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName('edita')
+    .setName('edita-el-estado')
     .setDescription('📚 Edita un libro de tu estantería!'),
   async execute(interaction) {
     const deleteMessage = async (messages) => {

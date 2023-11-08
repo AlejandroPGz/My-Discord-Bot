@@ -5,7 +5,7 @@ const db = require('../../dataBase');
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName('library')
+    .setName('libreria')
     .setDescription('📁 Muestra tu estanteria'),
   async execute(interaction) {
     const getBooksStatement = `
