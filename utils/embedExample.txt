@@ -1,0 +1,22 @@
+
+const createEmbed = ( ) => {
+  const exampleEmbed = new EmbedBuilder()
+    .setColor('')
+    .setTitle()
+    .setURL('')
+    .setDescription('')
+    .setThumbnail('')
+    .addFields(
+      { name: 'Capital', value: '', inline: true },
+      { name: 'Poblacion', value: '', inline: true },
+      { name: 'Region', value: '', inline: true },
+    )
+    .addFields(
+      { name: 'Grados', value: '', inline: true },
+      { name: 'Clima', value: '', inline: true },
+      { name: 'GoogleMaps', value: '', },
+
+    )
+    .setImage('');
+  return exampleEmbed;
+};
