@@ -6,7 +6,7 @@ const { getUserFromDb } = require('../../utils/searchUser');
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName('borrar-libro ')
+    .setName('borrarlibro')
     .setDescription('Delete a book from your library!'),
   async execute(interaction) {
     const userExists = getUserFromDb(interaction.user.id);
